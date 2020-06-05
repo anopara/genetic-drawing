@@ -10,7 +10,7 @@ Examples of generated images:
 It also supports user-created sampling masks, in case you'd like to specify regions where more brushstrokes are needed (for ex, to allocate more finer details)
 
 
-
+<img src="imgs/img3.gif">
 
 
 ## Python
