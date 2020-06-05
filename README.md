@@ -7,3 +7,12 @@ Examples of generated images:
 
 ![](imgs/img1.gif) <img src="imgs/img2.gif" width="380">
 
+you would need the following python libraries:
+
+## Python
+opencv 3.4.1
+numpy 1.16.2
+matplotlib 3.0.3
+and Jupyter Notebook
+
+To start, open the GeneticDrawing.ipynb and run the example code
