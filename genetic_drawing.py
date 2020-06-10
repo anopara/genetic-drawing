@@ -47,10 +47,10 @@ class GeneticDrawing:
     def calcBrushRange(self, stage, total_stages):
         return [self._calcBrushSize(self.brushesRange[0], stage, total_stages), self._calcBrushSize(self.brushesRange[1], stage, total_stages)]
         
-    def set_brush_range(ranges):
+    def set_brush_range(self, ranges):
         self.brushesRange = ranges
         
-    def set_sampling_mask(img_path):
+    def set_sampling_mask(self, img_path):
         self.sampling_mask = cv2.cvtColor(cv2.imread(img_path),cv2.COLOR_BGR2GRAY)
         
     def create_sampling_mask(self, s, stages):
